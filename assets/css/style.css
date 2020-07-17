@@ -1,4 +1,16 @@
-/* Colour Scheme */
+/* Colour Scheme 
+Kelp
+#373A2E
+
+Straw
+#D3C18C
+
+Cascade
+#92B1AF
+
+Regent Gray
+#828C98
+*/
 
 /* General page styling*/
 html, body {
@@ -22,38 +34,49 @@ html, body {
 }
 #landtext {
   position: absolute;
-font-family:"Playfair Display SC";
-  letter-spacing:0.25rem;
-  color: white;
   text-align: center;
-  top: 50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
+  top: 15%;
+  left:15%;
+  right: 15%;
+  bottom: 15%;
+  font-family: monospace; 
 }
-.main-text{
-    font-size:5rem;
-    text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+.slogan-text{
+    font-size:4rem;
+    text-transform: uppercase;
+    letter-spacing:0.10rem;
+    color: white;
 }
-#gobtn {
-    text-decoration: none;
-    padding-top: 2.5rem;
-    height: 6.25rem;
-    width: 6.25rem;
-    border-radius: 50%;
-    color:#cbc3c1;
-    align-items: center;
+
+.with-text{
+    text-emphasis: bold;
+    font-size:2rem;
+    color: #92B1AF;
+}
+
+.logo-text{
+    font-size:6rem;
+    text-transform: uppercase;
+    letter-spacing:0.10rem;
+    color: white;
+}
+  #gobtn {
+     align-items: center; 
     justify-content: center;
-    background-color: rgba(0,0,0,0.5);
-    letter-spacing: 0.1875rem;
     cursor: pointer;
-     margin-left: auto;
-  margin-right: auto;
-}
+      margin-left: auto;
+  margin-right: auto; 
+} 
+
+.bi-chevron-double-down{
+    color: #white;
+    width: 7em; 
+    height: 7em;
+} 
 #gobtn:hover {
-    background-color: #ba7f61;
     transition: .7s ease-in-out;
-}
+        padding-top: 1.5rem;
+} 
 /* Styling to About Us section */
 
 /* Animations on Discovery section */
