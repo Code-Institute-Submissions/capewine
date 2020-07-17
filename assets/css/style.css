@@ -11,7 +11,49 @@ html, body {
 /* Navbar & logo styling */
 
 /* Landing page and font decoration */
-
+#landing {
+    height: 100vh;
+    position: relative;
+    background: url(../images/cape-wine-landing.jpg) no-repeat center center fixed; 
+   background-size: cover;
+    align-items: center;
+    overflow:hidden;
+    margin-bottom:5rem;
+}
+#landtext {
+  position: absolute;
+font-family:"Playfair Display SC";
+  letter-spacing:0.25rem;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+.main-text{
+    font-size:5rem;
+    text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+}
+#gobtn {
+    text-decoration: none;
+    padding-top: 2.5rem;
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+    color:#cbc3c1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    letter-spacing: 0.1875rem;
+    cursor: pointer;
+     margin-left: auto;
+  margin-right: auto;
+}
+#gobtn:hover {
+    background-color: #ba7f61;
+    transition: .7s ease-in-out;
+}
 /* Styling to About Us section */
 
 /* Animations on Discovery section */
