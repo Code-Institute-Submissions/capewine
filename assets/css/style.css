@@ -30,7 +30,7 @@ html, body {
    background-size: cover;
     align-items: center;
     overflow:hidden;
-    margin-bottom:5rem;
+    margin-bottom:10%;
 }
 #landtext {
   position: absolute;
@@ -57,7 +57,7 @@ html, body {
 .logo-text{
     font-size:6rem;
     text-transform: uppercase;
-    letter-spacing:0.10rem;
+    letter-spacing:0.8rem;
     color: white;
 }
   #gobtn {
@@ -69,7 +69,6 @@ html, body {
 } 
 
 .bi-chevron-double-down{
-    color: #white;
     width: 7em; 
     height: 7em;
 } 
@@ -86,3 +85,10 @@ html, body {
 /* Footer  Styling*/
 
 /* Media Queries */
+
+/*Media Query to reduce the font size on small screen */
+@media screen and (max-width: 425px) {
+  .header {
+    font-size:1.8rem;
+  }
+}
