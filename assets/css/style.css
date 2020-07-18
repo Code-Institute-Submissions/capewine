@@ -47,7 +47,7 @@ html, body {
    background-size: cover;
     align-items: center;
     overflow:hidden;
-    margin-bottom:10%;
+    /* margin-bottom:10%; */
 }
 #landtext {
   position: absolute;
@@ -94,6 +94,18 @@ html, body {
         padding-top: 1.5rem;
 } 
 /* Styling to About Us section */
+.about-us{
+    padding: 0;
+}
+.header {
+    text-align:center;
+    padding-top:10%; 
+    color:#828C98;
+    font-size:7em;
+    letter-spacing:0.8rem;
+    text-transform: uppercase;
+
+}
 
 /* Animations on Discovery section */
 
