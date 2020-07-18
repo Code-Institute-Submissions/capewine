@@ -147,6 +147,9 @@ html, body {
 }
 
 /* Footer  Styling*/
+.footer{
+    background-color: #92B1AF;
+}
 .social-networks{
   text-align: center;
   width: 100%;
@@ -160,7 +163,7 @@ html, body {
   font-size:180%;
   margin:1%; 
  padding:2%;
-  color:#92B1AF;
+  color:#373A2E;
 }
 /* Media Queries */
 
