@@ -142,7 +142,7 @@ html, body {
 
 /* Styling on the Discovery section */
 .discovery{
-    height: 100%;
+    height: auto;
     background-color: #373A2E;
 }
 
