@@ -145,6 +145,21 @@ html, body {
     height: auto;
     background-color: #373A2E;
 }
+.discovery-text{
+    color: white;
+    padding: 1%;
+    font-size: 1rem;
+    text-align: center;
+}
+.filter-button{
+    color: white;
+    text-transform: uppercase;
+    width: 60%;
+    font-size: 2em;
+    letter-spacing: 0.6rem;
+    background-color: #92B1AF;
+    padding: 0,2%;
+}
 
 /* Styling for the Contact US section */
  .contact {
@@ -204,3 +219,5 @@ html, body {
       font-size:1.8rem;
   }
 }
+
+
