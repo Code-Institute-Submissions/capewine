@@ -146,6 +146,14 @@ html, body {
     background-color: #373A2E;
 }
 
+/* Styling for the Contact US section */
+ .contact-details {
+     text-align: center;
+  width: 100%;
+  display:inline;
+  background-color: pink;
+ }
+
 /* Footer  Styling*/
 .footer{
     background-color: #92B1AF;
