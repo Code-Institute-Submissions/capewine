@@ -39,7 +39,7 @@ html, body {
 }
 
 .navbar-nav, .nav-item {
-    color: #373A2E;
+    color: #828C98;
     font-weight:500;
 }
 
@@ -143,7 +143,7 @@ html, body {
 /* Styling on the Discovery section */
 .discovery{
     height: 100%;
-    background-color: #D3C18C;
+    background-color: #373A2E;
 }
 
 /* Footer  Styling*/
