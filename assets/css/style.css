@@ -154,12 +154,28 @@ html, body {
 
  .contact-details{
     display:inline;
+    padding: 3%;
  }
 
  .detail{
      list-style-type:none;
  }
 
+ .details-text{
+    color: #373A2E;
+    font-size:1.5em;
+ }
+
+ .getintouh-text{
+     color: #373A2E;
+     padding-bottom: 3%;
+ }
+.center-form{
+    padding: 3%;
+}
+.sm{
+    background-color: #373A2E;
+}
 /* Footer  Styling*/
 .footer{
     background-color: #92B1AF;
@@ -179,11 +195,12 @@ html, body {
  padding:2%;
   color:#373A2E;
 }
+
 /* Media Queries */
 
 /*Media Query to reduce the font size on small screen */
 @media screen and (max-width: 425px) {
-  .slogan-text, .logo-text, .header, .navbar-brand{
+  .slogan-text, .logo-text, .header, .navbar-brand, .getintouh-text{
       font-size:1.8rem;
   }
 }
