@@ -94,13 +94,24 @@
 	<section id="Contact" class="conact">
 		<h2 class="header">Contact Us</h2>
 		<div class="row">
-            <div class = "suggestion col-lg-6 col-md-6 col-sm-12">
-                <!-- email address, address, telephone (Font awesome icons) -->
+            <div class = "contact-details col-lg-6 col-md-6 col-sm-12">
+                <ul class="details">
+                    <li>icon - email </li>
+                    <li>icon - telephone</li>
+                    <li>icon - address CPT </li>
+                </ul>
             </div>
             <div class ="map col-lg-6 col-md-6 col-sm-12">
-                <!-- contact us form -->
-
+                <div class="center-form">
+                <form>
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                </form>
             </div>
+        </div>
+
         </div>
 	</section>
 
