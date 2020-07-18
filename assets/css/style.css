@@ -117,7 +117,7 @@ html, body {
 
 /*Media Query to reduce the font size on small screen */
 @media screen and (max-width: 425px) {
-  .slogan-text, .logo-text, .header{
+  .slogan-text, .logo-text, .header, .navbar-brand{
       font-size:1.8rem;
   }
 }
