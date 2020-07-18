@@ -24,7 +24,15 @@ html, body {
 .navbar-brand{
     color: #373A2E;
     font-size: 3rem;
-
+}
+#navbar {
+    background-color: white;
+  position: fixed;
+  width: 100%;
+   z-index: 9999;
+}
+.navbar-toggler-icon{
+    background-color: pink;
 }
 .navbar-brand:hover{
    color: #92B1AF; 
@@ -52,7 +60,7 @@ html, body {
 #landtext {
   position: absolute;
   text-align: center;
-  top: 15%;
+  top: 25%;
   left:15%;
   right: 15%;
   bottom: 15%;
