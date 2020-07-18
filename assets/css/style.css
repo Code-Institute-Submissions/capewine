@@ -105,7 +105,7 @@ html, body {
 
 .header {
     text-align:center;
-    padding-top:10%; 
+    padding-top:7%; 
     color:#828C98;
     font-size:7em;
     letter-spacing:0.8rem;
@@ -141,6 +141,10 @@ html, body {
 /* Animations on Discovery section */
 
 /* Styling on the Discovery section */
+.discovery{
+    height: 100%;
+    background-color: #D3C18C;
+}
 
 /* Footer  Styling*/
 
