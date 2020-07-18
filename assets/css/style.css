@@ -147,7 +147,21 @@ html, body {
 }
 
 /* Footer  Styling*/
+.social-networks{
+  text-align: center;
+  width: 100%;
+}
 
+.social-networks li{
+  display:inline;
+}
+
+.social-networks i{
+  font-size:180%;
+  margin:1%; 
+ padding:2%;
+  color:#92B1AF;
+}
 /* Media Queries */
 
 /*Media Query to reduce the font size on small screen */
