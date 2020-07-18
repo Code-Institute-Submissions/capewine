@@ -147,11 +147,17 @@ html, body {
 }
 
 /* Styling for the Contact US section */
- .contact-details {
-     text-align: center;
-  width: 100%;
-  display:inline;
-  background-color: pink;
+ .contact {
+    text-align: center;
+    width: 100%;
+ }
+
+ .contact-details{
+    display:inline;
+ }
+
+ .detail{
+     list-style-type:none;
  }
 
 /* Footer  Styling*/
