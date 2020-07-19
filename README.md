@@ -1,4 +1,4 @@
-![Cape wine logo](workspace/assets/images/cape-wine-logo.JPG)
+![Cape wine logo](assets/images/cape-wine-logo.JPG)
 
 
 
