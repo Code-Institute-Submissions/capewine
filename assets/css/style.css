@@ -161,6 +161,10 @@ html, body {
     padding: 0,2%;
 }
 
+#map {
+    min-height: 360px;
+}
+
 /* Styling for the Contact US section */
  .contact {
     text-align: center;
