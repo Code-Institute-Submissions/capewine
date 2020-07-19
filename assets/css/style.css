@@ -23,16 +23,18 @@ html, body {
 /* Navbar & logo styling */
 .navbar-brand{
     color: #828C98;
+    
     font-size: 2rem;
 }
 #navbar {
-    background-color: white;
+background-color: white;
   position: fixed;
   width: 100%;
-   z-index: 9999;
+   z-index: 999;
 }
 .navbar-toggler-icon{
     background-color: pink;
+    border: 1px solid 
 }
 .navbar-brand:hover{
    color: #92B1AF; 
