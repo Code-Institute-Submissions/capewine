@@ -1,6 +1,6 @@
 ![Cape wine logo](assets/images/cape-wine-logo.JPG)
 
-#Cape Wine
+# Cape Wine
 
 Cape Wine is a travel site which encourages both local and international Cape Winelands visitors to discover new places. 
 This site makes use of the Google Maps API to allow wine lovers to filter by drinking or wine tasting, wine farm restaurants and places to stay for a few nights in the Cape Winelands. 
@@ -8,19 +8,19 @@ The Cape Winelands is one of the most beautiful areas in South Africa, with the 
 The aim of this site is to show users the options available to locals and tourists when visiting the Cape Winelands
 
 
-#User stories
+# User stories
 
--As a user, I want to be able to learn more about the Cape Winelands
--As a user, I want to be able to discover where would be a nice place to drink wine, eat food and stay. 
--As a user, I want to be able to contact the site owner if I need more information. 
--As a user, I want to be able to easily see a list of options in a table and find out more information on these places located in the Cape Winelands
--As a user, I expect to be able to access the website from any device.
--As a user I expect any information on the website to be displayed in a clear & concise way
--As a user, I expect to find information on the website quickly and effectively.
--As a user, I expect to be able to find out more information about the company.
--As a user, I expect to be able to read reviews from customers.
--As a user, I expect to be able to get in contact with the site owner for any reason
--As a user, I expect to be able to gain additional information on this site owner
+- As a user, I want to be able to learn more about the Cape Winelands
+- As a user, I want to be able to discover where would be a nice place to drink wine, eat food and stay. 
+- As a user, I want to be able to contact the site owner if I need more information. 
+- As a user, I want to be able to easily see a list of options in a table and find out more information on these places located in the Cape Winelands
+- As a user, I expect to be able to access the website from any device.
+- As a user I expect any information on the website to be displayed in a clear & concise way
+- As a user, I expect to find information on the website quickly and effectively.
+- As a user, I expect to be able to find out more information about the company.
+- As a user, I expect to be able to read reviews from customers.
+- As a user, I expect to be able to get in contact with the site owner for any reason
+- As a user, I expect to be able to gain additional information on this site owner
 
 
 Welcome lucyrush,
