@@ -119,16 +119,16 @@ background-color: white;
     border: none;
 }
 .card-title{
-    color:white;
+    color:#373A2E;
      text-transform: uppercase;
      text-align:center;
     padding-top:10%;
     font-size:3em;
 }
 .card-text{
-    color:white;
+    color:#373A2E;
      text-align:center;
-    padding:10%;
+    padding:6%;
     font-size:2rem;
 }
 
@@ -137,6 +137,7 @@ background-color: white;
   cursor: pointer;
   width: 100%;
   height: 100%;
+  opacity: 0.5;
 }
 
 /* Animations on Discovery section */
@@ -227,7 +228,7 @@ background-color: white;
 
 @media screen and (max-width: 425px) {
   .card-text {
-      font-size:0.4rem;
+      font-size:0.8rem;
   }
 }
 
