@@ -28,3 +28,20 @@ function initMap() {
     autocomplete.addListener('place_changed', onPlaceChanged);
 
 }
+//Event listener that targets when a div is clicked & sets the option to the relevant filter on map
+//Then calls the Search function to filter the pins on the map. 
+document.getElementById("Eat").addEventListener("click", Eat);
+document.getElementById("Stay").addEventListener("click", Stay);
+document.getElementById("Drink").addEventListener("click", Drink);
+function Eat() {
+    option = "restaurant";
+    search(option);
+}
+function Stay() {
+    option = "lodging";
+    search(option);
+}
+function Drink() {
+    option = "bar";
+    search(option);
+}
