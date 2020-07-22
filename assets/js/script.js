@@ -45,3 +45,14 @@ function Drink() {
     option = "bar";
     search(option);
 }
+// When the user selects a city, get the place details for the city and
+// zoom the map in on the city.
+function onPlaceChanged() {
+    var place = autocomplete.getPlace();
+    if (place.geometry) {
+        map.panTo(place.geometry.location);
+        map.setZoom(15);
+    } else {
+        document.getElementById('autocomplete').placeholder = 'Enter a city';
+    }
+}
