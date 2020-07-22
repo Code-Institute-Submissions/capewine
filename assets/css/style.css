@@ -141,7 +141,30 @@ background-color: white;
 }
 
 /* Functionality in Discovery section */
+input[type=text] {
+  width: 100%;
+   padding: 0.75em 1.25em;
+  margin: 0.5em 0;
+  box-sizing: border-box;
+  color:#ba7f61;
+  font-family:Montserrat;
+  font-weight:500;
+  font-size:1.2rem;
+}
+#resultsTable{
+    font-family:"Source Code Pro";
+    color:#463e4b;
+}
+#infowindow-content .title {
+  font-weight: bold;
+}
+#infowindow-content {
+  display: none;
+}
 
+#infowindow-content {
+  display: inline;
+}
 /* Styling on the Discovery section */
 .discovery{
     height: auto;
