@@ -88,3 +88,19 @@ function search(option) {
         }
     });
 }
+//Clears the marks off the map
+function clearMarkers() {
+    for (var i = 0; i < markers.length; i++) {
+        if (markers[i]) {
+            markers[i].setMap(null);
+        }
+    }
+    markers = [];
+}
+//Drops marks on map when filter is selected
+function dropMarker(i) {
+    return function () {
+        markers[i].setMap(map);
+    };
+}
+
