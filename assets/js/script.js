@@ -15,7 +15,7 @@ function initMap() {
         content: document.getElementById('info-content')
     });
 
-        // Create the autocomplete object and associate it with the input control.
+    // Create the autocomplete object and associate it with the input control.
     // Restrict the search to Ireland, and to place type "cities".
     autocomplete = new google.maps.places.Autocomplete(
         (
@@ -56,6 +56,7 @@ function onPlaceChanged() {
         document.getElementById('autocomplete').placeholder = 'Enter a city';
     }
 }
+
 // Search for activity in the selected city, within the viewport of the map.
 function search(option) {
     var search = {
@@ -192,4 +193,3 @@ function buildIWContent(place) {
         document.getElementById('iw-website-row').style.display = 'none';
     }
 }
-
