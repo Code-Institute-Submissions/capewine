@@ -14,3 +14,17 @@ function initMap() {
     infoWindow = new google.maps.InfoWindow({
         content: document.getElementById('info-content')
     });
+
+        // Create the autocomplete object and associate it with the input control.
+    // Restrict the search to Ireland, and to place type "cities".
+    autocomplete = new google.maps.places.Autocomplete(
+        (
+            document.getElementById('autocomplete')), {
+        types: ['(cities)'],
+        componentRestrictions: countryRestrict
+    });
+    places = new google.maps.places.PlacesService(map);
+
+    autocomplete.addListener('place_changed', onPlaceChanged);
+
+}
