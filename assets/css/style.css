@@ -146,14 +146,14 @@ input[type=text] {
    padding: 0.75em 1.25em;
   margin: 0.5em 0;
   box-sizing: border-box;
-  color:#ba7f61;
+  color:#373A2E;
   font-family:Montserrat;
   font-weight:500;
   font-size:1.2rem;
 }
 #resultsTable{
     font-family:"Source Code Pro";
-    color:#463e4b;
+    color:#828C98;
 }
 #infowindow-content .title {
   font-weight: bold;
