@@ -27,24 +27,13 @@ html, body {
     font-size: 2rem;
 }
 #navbar {
-background-color: white;
   position: fixed;
   width: 100%;
    z-index: 999;
 }
 
-.navbar-brand:hover{
-   color: #92B1AF; 
-}
 
-.navbar-nav, .nav-item {
-    color: #828C98;
-    font-weight:500;
-}
 
-.navbar-nav, .nav-item:hover{
-    color: #92B1AF;
-}
 
 /* Landing page and font decoration */
 #landing {
@@ -243,16 +232,35 @@ input[type=text] {
 
 /* Media Queries */
 
-/*Media Query to reduce the font size on small screen */
+
+/* Medium screens */
+
+@media screen and (max-width: 1300px) {
+  .card-text, .details-text {
+      font-size:0.9rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .header{
+      font-size: 1.6;
+  }
+}
+  
+ /* Small screens  */
+
 @media screen and (max-width: 425px) {
   .slogan-text, .logo-text, .navbar-brand {
       font-size:1.8rem;
   }
-  .header{
-      font-size: 0.9;
-  }
-   .card-text, .details-text {
+}
+@media screen and (max-width: 425px) {
+  .card-text, .details-text {
       font-size:0.8rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header{
+      font-size: 1.4rem;
   }
 }
 
@@ -273,7 +281,7 @@ input[type=text] {
       font-size: 0.9rem;
   }
    .card-text, .details-text {
-      font-size:0.1rem;
+      font-size:0.3rem;
   }
    .header{
       font-size: 0.4;
@@ -281,11 +289,4 @@ input[type=text] {
 }
 
 
-@media screen and (max-width: 1300px) {
-  .card-text, .details-text {
-      font-size:0.9rem;
-  }
-   .header{
-      font-size: 1.6;
-  }
-}
+
