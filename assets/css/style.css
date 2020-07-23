@@ -251,12 +251,23 @@ input[type=text] {
   .slogan-text, .logo-text, .header, .navbar-brand {
       font-size:1.8rem;
   }
-}
-
-@media screen and (max-width: 425px) {
-  .card-text {
+   .card-text, .details-text {
       font-size:0.8rem;
   }
 }
 
+ @media screen and (max-width: 360px) { 
+  .slogan-text, .logo-text, .header, .navbar-brand {
+      font-size: 1.7rem;
+  }
+   .card-text, .details-text {
+      font-size:0.2rem;
+  }
+}
 
+
+@media screen and (max-width: 1300px) {
+  .card-text, .details-text {
+      font-size:0.9rem;
+  }
+}
