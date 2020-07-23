@@ -16,7 +16,7 @@ function initMap() {
     });
 
     // Create the autocomplete object and associate it with the input control.
-    // Restrict the search to Ireland, and to place type "cities".
+    // Restrict the search to SA, and to place type "cities".
     autocomplete = new google.maps.places.Autocomplete(
         (
             document.getElementById('autocomplete')), {
