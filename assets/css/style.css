@@ -248,20 +248,38 @@ input[type=text] {
 
 /*Media Query to reduce the font size on small screen */
 @media screen and (max-width: 425px) {
-  .slogan-text, .logo-text, .header, .navbar-brand {
+  .slogan-text, .logo-text, .navbar-brand {
       font-size:1.8rem;
+  }
+  .header{
+      font-size: 0.9;
   }
    .card-text, .details-text {
       font-size:0.8rem;
   }
 }
 
- @media screen and (max-width: 360px) { 
-  .slogan-text, .logo-text, .header, .navbar-brand {
-      font-size: 1.7rem;
+ @media screen and (max-width: 361px) { 
+  .slogan-text, .logo-text, .navbar-brand {
+      font-size: 0.7rem;
   }
    .card-text, .details-text {
       font-size:0.2rem;
+  }
+   .header{
+      font-size: 0.3;
+  }
+}
+
+ @media screen and (max-width: 320px) { 
+  .slogan-text, .logo-text, .navbar-brand {
+      font-size: 0.9rem;
+  }
+   .card-text, .details-text {
+      font-size:0.1rem;
+  }
+   .header{
+      font-size: 0.4;
   }
 }
 
@@ -269,5 +287,8 @@ input[type=text] {
 @media screen and (max-width: 1300px) {
   .card-text, .details-text {
       font-size:0.9rem;
+  }
+   .header{
+      font-size: 1.6;
   }
 }
