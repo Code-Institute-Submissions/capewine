@@ -2,6 +2,8 @@
 
 # Cape Wine
 
+- Visit the site [here](https://lucyrush.github.io/capewine/ )
+
 Cape Wine is a travel site which encourages both local and international Cape Winelands visitors to discover new places.
 This site makes use of the Google Maps API to allow wine lovers to filter by drinking or wine tasting, wine farm restaurants and places to stay for a few nights in the Cape Winelands.
 The Cape Winelands is one of the most beautiful areas in South Africa, with the rugged mountains, and practically untouched countryside.
@@ -32,6 +34,8 @@ My goal of this site is to create a simple, visually appealing website to help t
 To provide potential customers with information on hotels, restaurants and bars to visit in South Africa, more specially focused on the Cape Winelands
 
 # Structure
+
+![Cape wine mockup](assets/images/mockup-cape-wine.JPG)
 
 The main structure of this website involves three main sections, the ‘Landing page’, the ‘About Us’ section and the ‘Discovery’ section.
 
@@ -204,8 +208,8 @@ The live link can be found here - https://lucyrush.github.io/capewine/
 - Before starting this project, I did need to spend extra time learning about the more practical aspects of JavaScript with the [Watch and Code Tutorials](https://watchandcode.com/courses/enrolled/60264)
 - Google Maps API Documentation greatly assisted in the creation of the Javascript for this site.
 - I would like to thank my colleague, Claire, for some guidance and help with getting started. Her help significantly sped the process up. 
-- It is also worth acknowledging QI on in the background throughout the entire development process.
 
-![Alt Text](https://media.giphy.com/media/xUOwFTMDnqZkL6JKYE/giphy.gif)
+Cheers!
 
+![Cheers](assets/images/drink2-cape-wine.jpg)
 
