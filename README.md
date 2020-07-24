@@ -55,7 +55,7 @@ he page is split into three core sections.
 These are the wireframes, which include both the desktop and mobile view for each section.
 
 1.  [Landing Page](wireframes/landing-capewine.JPG)
-2. 
-About Us
-Discovery
-Contact Us
+2.  [About Us](wireframes/aboutus-capewine.JPG)
+3.  [Discovery](wireframes/discover-capewine.JPG)
+4.  [Contact Us](wireframes/contactus-capewine.JPG)
+
