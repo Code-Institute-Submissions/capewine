@@ -34,9 +34,28 @@ To provide potential customers with information on hotels, restaurants and bars 
 # Structure
 
 The main structure of this website involves three main sections, the ‘Landing page’, the ‘About Us’ section and the ‘Discovery’ section.
+
 The navbar appears and is fixed when the user opens the landing page. The landing image is a beautiful picture, creating a smooth experience for each user. Users can click on the downward arrows, prompting the user to go to the next section, The scroll is smooth using the scroll-behavior: smooth command CSS.
 On smaller screens, the navbar collapses using Bootstrap. When that icon is clicked, a dropdown menu with text is opened, allowing the user to easily navigate through the site.
+
 The images contain the Bootstrap img-thumbnail class to ensure both responsiveness and the shadow that accompanies the bootstrap class.
+
 To ensure easy usability, I created buttons for the user to press to filter which activity they would like to know more about.
+
 When a user searches for an activity and city, then a table appears with a list of all activities in the area selected.
+
 The map automatically zooms into the selected city. If a city is not selected and a filter is, then it will drop pins by default to the centre of the country.
+
+# Skeleton
+
+This website is structured over one page, using Google Maps API.
+T
+he page is split into three core sections.
+
+These are the wireframes, which include both the desktop and mobile view for each section.
+
+1.  [Landing Page](wireframes/landing-capewine.JPG)
+2. 
+About Us
+Discovery
+Contact Us
